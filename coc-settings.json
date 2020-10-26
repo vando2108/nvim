@@ -1,0 +1,6 @@
+{
+  "snippets.userSnippetsDirectory": "~/.config/nvim/bundle/Ultisnips",
+  "coc.preferences.formatOnSaveFiletypes": [
+    "dart"
+  ]
+}
