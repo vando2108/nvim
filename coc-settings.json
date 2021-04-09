@@ -2,5 +2,15 @@
   "snippets.userSnippetsDirectory": "~/.config/nvim/bundle/Ultisnips",
   "coc.preferences.formatOnSaveFiletypes": [
     "dart"
-  ]
+  ],
+  "clangd.path": "/home/kdimo/.config/coc/extensions/coc-clangd-data/install/11.0.0/clangd_11.0.0/bin/clangd",
+  "go.diable": {
+    "completion": false
+  },
+  "languageserver": {
+        "kotlin": {
+            "command": "[path to cloned language server]/server/build/install/server/bin/kotlin-language-server",
+            "filetypes": ["kotlin"]
+        }
+   }
 }

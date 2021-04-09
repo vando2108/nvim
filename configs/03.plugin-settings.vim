@@ -18,7 +18,8 @@ let g:NERDTreeShowBookmarks=1
 colorscheme gruvbox
 highlight Normal ctermbg=None
 set termguicolors
-let g:gruvbox_termcolors=16
+" let g:BorlandStyle = "classic"
+" let g:gruvbox_termcolors=16
 
 " Lcs Setting
 let g:lsc_auto_map = v:true
@@ -29,7 +30,10 @@ let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 let g:UltiSnipsSnippetDirectories=["../UltiSnips"]
 
-" Vim-airline
+"Vim-go
+let g:go_fmt_autosave=0
+
+"Vim-airline
 let g:airline_theme='gruvbox'
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
